@@ -1,6 +1,5 @@
 #FROM ubuntu:18.04
-FROM debian:stretch-slim
-
+FROM ubuntu
 
 # Copy installation scripts in
 RUN mkdir -p bin

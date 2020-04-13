@@ -1,10 +1,7 @@
 # Docker-Janus
 
-Base dev image for working with Janus
+Base dev image for working with Janus on Ubuntu
 
-Build image `docker build . -t csd1/janus:latest`
+Build image `docker build . -t <dockerhub-username>/janus:latest`
 
-Push image to docker registry `docker push csd1/janus:latest`
-
-
-Debian base image seems to have good package options for Janus. Smaller image than Ubuntu.
+Push image to docker registry `docker push <dockerhub-username>/janus:latest`
